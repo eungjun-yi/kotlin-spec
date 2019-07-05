@@ -13,7 +13,9 @@ group = "org.jetbrains.kotlin.spec"
 version = "0.1"
 
 repositories {
-    maven { setUrl("https://dl.bintray.com/vorpal-research/kotlin-maven") }
+    maven {
+        setUrl("https://dl.bintray.com/vorpal-research/kotlin-maven")
+    }
     mavenCentral()
 }
 
